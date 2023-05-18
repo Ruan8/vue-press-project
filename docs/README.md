@@ -1,3 +1,8 @@
+---
+lang: zh-CN
+title: VuePress2.0 + Github Actions部署到Github Pages教程
+---
+
 [VuePress官方文档](https://v2.vuepress.vuejs.org/zh/)
 [vue-press-project github地址](https://github.com/Ruan8/vue-press-project)
 
