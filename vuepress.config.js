@@ -1,6 +1,5 @@
 import { defineUserConfig } from "vuepress";
-import { resolve } from "path";
 
 export default defineUserConfig({
-    base: "/vue-press-project/",
+    base: "/vue-press-project/", // github仓库名
 });
