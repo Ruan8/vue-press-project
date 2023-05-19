@@ -5,7 +5,7 @@ import { nprogressPlugin } from "@vuepress/plugin-nprogress";
 export default defineUserConfig({
     title: "vue-press",
     description: "使用VuePress用来学习和记录",
-    base: "/vue-press/", // github仓库名
+    base: "/vue-press-project/", // github仓库名
     theme: defaultTheme({
         sidebar: [
             // {
