@@ -94,4 +94,4 @@ search("天蚕土豆").then((res) => {
   console.log(res);
 });
 ```
-#### 打印![打印图片](https://img-blog.csdnimg.cn/0196c7e61d164ac9a58c94620538d7ff.png)
+#### 打印![打印图片](https://p.ipic.vip/81khkx.png)
