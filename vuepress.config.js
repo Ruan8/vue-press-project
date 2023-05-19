@@ -3,18 +3,33 @@ import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
 import { nprogressPlugin } from "@vuepress/plugin-nprogress";
 
 export default defineUserConfig({
-    title: "vue-press-project",
-    description: "vue-press-project",
-    base: "/vue-press-project/", // github仓库名
+    title: "vue-press",
+    description: "使用VuePress用来学习和记录",
+    base: "/vue-press/", // github仓库名
     theme: defaultTheme({
         sidebar: [
+            // {
+            //     text: "html + js + css",
+            //     link: "",
+            //     children: [],
+            // },
             {
-                text: "VuePress2.0 + Github Actions部署到Github Pages教程",
-                link: "/",
+                text: "node",
+                children: [
+                    {
+                        text: "node + cheerio 爬虫上手体验",
+                        link: "/node/cheerio",
+                    },
+                ],
             },
             {
-                text: "node + cheerio 爬虫上手体验",
-                link: "/node/cheerio",
+                text: "其他",
+                children: [
+                    {
+                        text: "VuePress2.0 + Github Actions部署到Github Pages教程",
+                        link: "/other/vue-press",
+                    },
+                ],
             },
         ],
         repo: "Ruan8/vue-press-project",
