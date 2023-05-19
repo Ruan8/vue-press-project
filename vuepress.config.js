@@ -6,6 +6,14 @@ export default defineUserConfig({
     base: "/vue-press-project/", // github仓库名
     sidebar: false,
     theme: defaultTheme({
-        sidebar: false,
+        sidebar: [
+            {
+                text: "VuePress2.0 + Github Actions部署到Github Pages教程",
+                link: "/",
+            },
+        ],
+        lastUpdatedText: "上次更新",
+        contributorsText: "贡献者",
+        backToHome: "回到首页",
     }),
 });

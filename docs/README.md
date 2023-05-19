@@ -1,8 +1,3 @@
----
-lang: zh-CN
-title: VuePress2.0 + Github Actions部署到Github Pages教程
----
-
 [VuePress官方文档](https://v2.vuepress.vuejs.org/zh/)
 [vue-press-project github地址](https://github.com/Ruan8/vue-press-project)
 
@@ -92,23 +87,23 @@ export default defineUserConfig({
 
 10. 配置`GITHUB_TOKEN`
 
-![](https://img-blog.csdnimg.cn/f15b7d6cf5994206944e7756c8ba3fb7.png)
-![](https://img-blog.csdnimg.cn/f237be21e8394d20ae0383f795fa4edc.png)
-![](https://img-blog.csdnimg.cn/ed9b016d468445d7867864c820edc38b.png)
-![](https://img-blog.csdnimg.cn/7ff72330ae87454e8e0628338d3bfe9c.png)
-![](https://img-blog.csdnimg.cn/3b6725123caa44fd8725bc9ec0f6fbfd.png)![在这里插入图片描述](https://img-blog.csdnimg.cn/14bf3f891aa3473ca94eb77706d4cd94.png)
+![](https://p.ipic.vip/wix3iz.png)
+![](https://p.ipic.vip/zr4nlf.png)
+![](https://p.ipic.vip/y5qsvr.png)
+![](https://p.ipic.vip/llhgzn.png)
+![](https://p.ipic.vip/bkhzq1.png)![](https://p.ipic.vip/bdfa2d.png)
 
 选择权限，看不懂不懂全勾Read and write
-![在这里插入图片描述](https://img-blog.csdnimg.cn/74516e4c6dfa48d3b9eb9954dfbe607a.png)
+![](https://p.ipic.vip/v67rfm.png)
 
 复制
-![](https://img-blog.csdnimg.cn/36effa13486942568e3bb1270ad15458.png)
+![](https://p.ipic.vip/llx56k.png)
 
 找到仓库的设置
-![](https://img-blog.csdnimg.cn/21eb55751a004fb183ca4c058ccaa268.png)
+![](https://p.ipic.vip/a165n3.png)
 
 添加密钥
-![](https://img-blog.csdnimg.cn/770625d6e19940bdb53e693f238db248.png)
+![](https://p.ipic.vip/1vzs48.png)
 
 11. 提交代码到`github`
 
@@ -122,19 +117,18 @@ git push -u origin main
 ```
 
 能看到
-![](https://img-blog.csdnimg.cn/e3523d618a2543e1b705c9050baac571.png)
+![](https://p.ipic.vip/zr0b1g.png)
 
 这代表成功，看到红色的 <font color="red" size="5">x</font> 就代表构建失败，可点进去查看原因
-![](https://img-blog.csdnimg.cn/a931ca9ddf86482e9801f78ad24dd9a9.png)
+![](https://p.ipic.vip/s3i2a1.png)
 
 构建成功会发现多了个分支
-![](https://img-blog.csdnimg.cn/2bc0cc292b5745ed8b6be0695f88922f.png)
+![](https://p.ipic.vip/iwm1m2.png)
 
 然后我们进入`Settings/Pages`
-![](https://img-blog.csdnimg.cn/d1f023c005244c54b95533ffd52dc338.png)
+![](https://p.ipic.vip/rfcwj5.png)
 
 选择`gh-pages`分支的`/`目录作为根目录
 
 访问[https://ruan8.github.io/vue-press-project/](https://ruan8.github.io/vue-press-project/)
-![](https://img-blog.csdnimg.cn/b14588e04180475f99030983a1ba627a.png)
-
+![](https://p.ipic.vip/mhnncp.png)
