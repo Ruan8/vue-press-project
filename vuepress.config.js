@@ -1,16 +1,20 @@
 import { defineUserConfig, defaultTheme } from "vuepress";
 import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
+import { nprogressPlugin } from "@vuepress/plugin-nprogress";
 
 export default defineUserConfig({
     title: "vue-press-project",
     description: "vue-press-project",
     base: "/vue-press-project/", // github仓库名
-    sidebar: false,
     theme: defaultTheme({
         sidebar: [
             {
                 text: "VuePress2.0 + Github Actions部署到Github Pages教程",
                 link: "/",
+            },
+            {
+                text: "node + cheerio 爬虫上手体验",
+                link: "/node/cheerio",
             },
         ],
         repo: "Ruan8/vue-press-project",
@@ -34,5 +38,6 @@ export default defineUserConfig({
             id: "G-7M1XFXG9LR",
             debug: true,
         }),
+        nprogressPlugin(),
     ],
 });
