@@ -4,5 +4,5 @@ heroImage: /images/logo.jpeg
 heroHeight: 80
 actions:
   - text: 快速进入
-    link: /node/cheerio
+    link: /study/node/cheerio
     type: primary
