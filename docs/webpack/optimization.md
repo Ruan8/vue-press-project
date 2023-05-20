@@ -1,6 +1,6 @@
 # `webpack3` 升级 `webpack4`并优化
 
-打包消耗时间从`60ms -> 20ms`
+打包时间从`60ms -> 20ms`
 
 `webpack3` 升级 `webpack4`
 
