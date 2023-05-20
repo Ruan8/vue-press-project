@@ -1,37 +1,14 @@
 import { defineUserConfig, defaultTheme } from "vuepress";
 import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
 import { nprogressPlugin } from "@vuepress/plugin-nprogress";
+import { sidebar } from "./theme.js";
 
 export default defineUserConfig({
-    title: "vue-press",
-    description: "使用VuePress用来学习和记录",
+    title: "慢！",
+    description: "慢慢来，慢慢学！",
     base: "/vue-press-project/", // github仓库名
     theme: defaultTheme({
-        sidebar: [
-            // {
-            //     text: "html + js + css",
-            //     link: "",
-            //     children: [],
-            // },
-            {
-                text: "node",
-                children: [
-                    {
-                        text: "node + cheerio 爬虫上手体验",
-                        link: "/node/cheerio",
-                    },
-                ],
-            },
-            {
-                text: "其他",
-                children: [
-                    {
-                        text: "VuePress2.0 + Github Actions部署到Github Pages教程",
-                        link: "/other/vue-press",
-                    },
-                ],
-            },
-        ],
+        sidebar: sidebar,
         repo: "Ruan8/vue-press-project",
         docsDir: "docs",
         editLinkText: "在 GitHub 上编辑此页",
