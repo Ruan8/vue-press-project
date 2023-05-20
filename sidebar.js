@@ -27,7 +27,7 @@ const sidebar = {
 };
 
 if (process.env.NODE_ENV === "production") {
-    sidebar.shift();
+    sidebar["/study"].shift();
 }
 
 export default sidebar;
