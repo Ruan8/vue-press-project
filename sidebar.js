@@ -5,8 +5,16 @@ const sidebar = {
             children: ["/study/ts/type.md", "/study/ts/interface.md"],
         },
         {
+            text: "Axios",
+            children: ["/study/axios/encapsulation"],
+        },
+        {
             text: "node",
             children: ["/study/node/cheerio"],
+        },
+        {
+            text: "Docker",
+            link: "/study/docker/",
         },
         {
             text: "打包工具",

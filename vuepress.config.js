@@ -27,7 +27,6 @@ export default defineUserConfig({
                 link: "/study",
             },
         ],
-        darkmode: "toggle",
         breadcrumb: false,
         print: false,
         pure: true,
