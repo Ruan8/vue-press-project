@@ -27,7 +27,6 @@ export default defineUserConfig({
                 link: "/study",
             },
         ],
-        breadcrumb: false,
         print: false,
         pure: true,
         repo: "Ruan8/vue-press-project",
@@ -37,7 +36,8 @@ export default defineUserConfig({
             nprogress: true,
         },
         lastUpdated: false,
-        // toc: false,
+        breadcrumb: false,
+        pageInfo: false,
     }),
     plugins: [
         googleAnalyticsPlugin({
