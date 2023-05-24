@@ -36,6 +36,7 @@ export default defineUserConfig({
             activeHeaderLinks: true,
             nprogress: true,
         },
+        lastUpdated: false,
         // toc: false,
     }),
     plugins: [
