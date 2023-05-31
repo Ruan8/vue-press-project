@@ -29,7 +29,7 @@ const sidebar = {
         },
         {
             text: "其他",
-            children: ["/study/other/vue-press"],
+            children: ["/study/other/refresh-token", "/study/other/vue-press"],
         },
     ],
 };
