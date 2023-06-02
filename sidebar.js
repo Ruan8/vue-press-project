@@ -1,16 +1,24 @@
 const sidebar = {
     "/study": [
         {
-            text: "typescript",
-            children: ["/study/ts/type.md", "/study/ts/interface.md"],
+            text: "axios",
+            children: ["/study/axios/encapsulation"],
         },
         {
-            text: "Axios",
-            children: ["/study/axios/encapsulation"],
+            text: "typescript",
+            children: ["/study/ts/type", "/study/ts/interface"],
         },
         {
             text: "node",
             children: ["/study/node/cheerio"],
+        },
+        {
+            text: "react",
+            children: [
+                "/study/react/react",
+                "/study/react/router",
+                "/study/react/redux",
+            ],
         },
         {
             text: "Docker",
@@ -29,13 +37,13 @@ const sidebar = {
         },
         {
             text: "其他",
-            children: ["/study/other/refresh-token", "/study/other/vue-press"],
+            children: [
+                "/study/other/qiankun",
+                "/study/other/refresh-token",
+                "/study/other/vue-press",
+            ],
         },
     ],
 };
-
-if (process.env.NODE_ENV === "production") {
-    sidebar["/study"].shift();
-}
 
 export default sidebar;

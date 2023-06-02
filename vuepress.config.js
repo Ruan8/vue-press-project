@@ -38,6 +38,8 @@ export default defineUserConfig({
         lastUpdated: false,
         breadcrumb: false,
         pageInfo: false,
+        nextLinks: false,
+        prevLinks: false,
     }),
     plugins: [
         googleAnalyticsPlugin({

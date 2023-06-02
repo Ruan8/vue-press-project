@@ -43,7 +43,7 @@ npm i axios cheerio
 ```javascript
 const axios = require("axios");
 const cheerio = require("cheerio");
-const baseURL = "http://www.aidusk.com/";
+const baseURL = "http://www.aidusk.org/";
 
 /**
  * 获取页面html
