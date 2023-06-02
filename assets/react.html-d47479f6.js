@@ -1,0 +1,1 @@
+import{_ as t}from"./plugin-vue_export-helper-c27b6911.js";import{o as a,c as r,a as e,b as c}from"./app-7e3810a5.js";const o={},s=e("h1",{id:"react",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#react","aria-hidden":"true"},"#"),c(" react")],-1),n=[s];function _(d,i){return a(),r("div",null,n)}const f=t(o,[["render",_],["__file","react.html.vue"]]);export{f as default};
